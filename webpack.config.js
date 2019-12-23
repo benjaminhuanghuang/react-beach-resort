@@ -34,6 +34,10 @@ const config = {
             favicon: 'public/favicon.ico' 
         })
     ],
+    devSerer:{
+        // this prevents the default browser full page refresh on form submission and link change
+        historyApiFallback: true 
+    }
 };
 
 module.exports = config;   
