@@ -28,6 +28,7 @@
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
     "css-loader": "^1.0.1",
     "sass-loader": "^8.0.0",
     "node-sass": "^4.13.0",

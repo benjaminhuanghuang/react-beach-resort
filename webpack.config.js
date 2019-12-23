@@ -22,7 +22,7 @@ const config = {
                 test: /\.scss$/, use: ['style-loader', "css-loader", "sass-loader"]
             },
             {
-                test: /\.(png|jpg|jpeg)$/,
+                test: /\.(png|jpg|jpeg|svg)$/,
                 loader: 'url-loader'
               }
         ]
