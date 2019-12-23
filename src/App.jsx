@@ -16,9 +16,9 @@ class App extends React.Component {
          <Router>
             <NavBar></NavBar>
             <Switch>
-               <Route path="/" exact Component={Home}></Route>
-               <Route path="/rooms" Component={Rooms}></Route>
-               <Route path="/room/:slug" Component={SingleRoom}></Route>
+               <Route path="/" exact component={Home}></Route>
+               <Route path="/rooms" component={Rooms}></Route>
+               <Route path="/room/:slug" component={SingleRoom}></Route>
                <Route Component={Error}></Route>
             </Switch>
          </Router>
