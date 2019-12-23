@@ -8,3 +8,10 @@
 ```
     rafc       create a new reat component
 ```
+
+## Grid layout
+```
+grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+```
+
+## React Context
